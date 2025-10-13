@@ -2,22 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
-
-.kantumruy-pro-<uniquifier> {
-  font-family: "Kantumruy Pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.adlam-display-regular {
-  font-family: "ADLaM Display", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 header{
     width: 100%;
@@ -57,6 +42,7 @@ header div:nth-child(2) nav ul{
 
 header div:nth-child(2) nav ul li a{
     text-decoration: none;
-    color: rgb(4, 17, 1);
+    color: rgb(60 105 70);
     font-size: 1.2rem;
+    font-family: "ADLaM Display", system-ui;
 }
