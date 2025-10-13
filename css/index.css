@@ -46,3 +46,28 @@ header div:nth-child(2) nav ul li a{
     font-size: 1.2rem;
     font-family: "ADLaM Display", system-ui;
 }
+
+arearticle{
+    width: 100%;
+    min-height: 91vh;
+    background-color: #e6f4d4;
+}
+
+arearticle section:first-child{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+arearticle section div #banenr{
+    width: 90%;
+    height: 20vh;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+arearticle section div #banenr img{
+    width: 100%;
+}
