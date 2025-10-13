@@ -62,15 +62,39 @@ arearticle section:first-child{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 3vh 0;
+}
+
+arearticle section:first-child div .icon{
+    position: absolute;
+   z-index: 2;
 }
 
 arearticle section div #banenr{
-    width: 90%;
+    width: 94vw;
     height: 20vh;
-    border: 1px solid red;
     overflow: hidden;
+}
+
+arearticle section div #banenr div{
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 arearticle section div #banenr img{
     width: 100%;
+}
+
+arearticle section div #banenr h1{
+    position: absolute;
+    top: 24vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #558e62;
+    font-size: 5rem;
+    font-family: "ADLaM Display", system-ui;
+    letter-spacing: 2px;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
