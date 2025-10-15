@@ -62,7 +62,6 @@ arearticle section:first-child{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3vh 0;
 }
 
 arearticle section:first-child div .icon{
@@ -71,8 +70,8 @@ arearticle section:first-child div .icon{
 }
 
 arearticle section div #banenr{
-    width: 94vw;
-    height: 20vh;
+    width: 100vw;
+    height: 36vh;
     overflow: hidden;
 }
 
@@ -88,11 +87,11 @@ arearticle section div #banenr img{
 
 arearticle section div #banenr h1{
     position: absolute;
-    top: 24vh;
+    top: 26vh;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #558e62;
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: "ADLaM Display", system-ui;
     letter-spacing: 2px;
     z-index: 1;
