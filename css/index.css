@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "ADLaM Display", system-ui;
 }
 
 htlm{
@@ -55,9 +56,10 @@ header div:nth-child(2) nav ul li a{
     text-decoration: none;
     color: rgb(60 105 70);
     font-size: 1.2rem;
-    font-family: "ADLaM Display", system-ui;
+    
 }
 
+/* Main Content */
 arearticle{
     width: 100%;
     background-color: #e6f4d4;
@@ -83,6 +85,7 @@ arearticle section:first-child div .icon{
 arearticle section:first-child div .icon span{
     font-size: 6vh;
     color: #558e62;
+    cursor: pointer;
 }
 
 arearticle section:first-child .icon:nth-child(2){
@@ -136,4 +139,15 @@ section.content .lista .item{
 	box-shadow: 4px 5px 10px 2px #c7d0bb;
 	-webkit-box-shadow: 4px 5px 10px 2px #c7d0bb;
 	margin: 28px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 8vh;
+    background-color: #bef0aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
