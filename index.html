@@ -1,77 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeEco</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeEco</title>
 
-    <link rel="stylesheet" href="css/index.css">
-
-    <!-- Google Fonts -->
-    <!--ADLaM Display-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Kantumruy+Pro:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-
-    <!-- Google icon -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-        <div id="logo"><img src="img/BeEcoGreen.png" alt="logotipo BeEco"></div>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li> <!-- Que tenga una nainmación donde muestre los iconos y al poner el mouse de bayan como en cubo hacia atrás mostrando las letras -->
-                    <li><a href="tiendas.html">Tiendas</a></li>
-                    <li><a href="categorias.html">Categorias</a></li>
-                    <li><a href="blog.html">Blogs</a></li>
-                    <li><a href="blog.html">Perfil</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <arearticle>
-        <section>
-            <div>
-                <div class="icon"><span class="material-symbols-outlined">filter_list</span></div>
-                <div class="icon"><span class="material-symbols-outlined">search</span></div>
-                <div id="banenr">
-                    <div> <!-- Aqui va el slider de imagenes detras del nombre-->
-                        <img src="img/Banner2.png" alt="banenr">
-                    </div>
-                    <h1>BeEco</h1>
-                </div>
-            </div>
-        </section>
-        <section class="content">
-            <!-- lista de productos tipo uStore-->
-            <div class="lista">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-            </div>
+  <header>
+    <nav>
+      <a href="#home">Inicio</a>
+      <a href="#tienda">Tiendas</a>
+      <a href="#blog">Blog</a>
+      <a href="blog.html">Perfil</a>
+    </nav>
+  </header>
 
-            <div class="lista">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-            </div>
+  <main>
+    <section id="home"></section>
+    <section id="tienda"></section>
+    <section id="blog"></section>
+  </main>
 
-            </div>
-        </section>
-
-        <form action="">
-            <input type="text" placeholder="Buscar productos, tiendas, categorias...">
-            <button type="submit">Buscar</button>
-        </form>
-    </arearticle>
-    <footer>
-        <p>&copy; 2025 BeEco. Todos los derechos reservados. Nancy</p>
-    </footer>
+  <script src="js/incluir.js"></script>
 </body>
 </html>
