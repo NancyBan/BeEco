@@ -1,0 +1,40 @@
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #bef0aa;
+}
+
+header #logo{
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header #logo img{
+    height: 8vh;
+}
+
+header nav{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav div {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(60 105 70);
+    font-size: 1.2rem;
+}

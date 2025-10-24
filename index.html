@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    fetch('../templates/template.head.html')
+        .then(response => response.text())
+        .then(data => {
+            const head = document.querySelector('head');
+            head.insertAdjacentHTML('afterbegin', data);
+
+            /*const faviconLink = document.querySelector('link[rel="shortcut icon"]');
+            if (faviconLink) {
+                faviconLink.setAttribute('href', '../imgs_index/shortcut_icon.png');
+            }
+
+            const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
+            if (stylesheetLink) {
+                stylesheetLink.setAttribute('href', '../css_general/header.css');
+            }*/
+        });
+    </script>
   <title>BeEco</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
   <header>
+    <div id="logo"><img src="img/BeEcoGreen.png" alt="logotipo BeEco"></div>
     <nav>
-      <a href="#home">Inicio</a>
+      <div>
+        <a href="#home">Inicio</a>
       <a href="#tienda">Tiendas</a>
       <a href="#blog">Blog</a>
       <a href="blog.html">Perfil</a>
+      </div>
     </nav>
   </header>
 
