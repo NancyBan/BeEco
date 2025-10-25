@@ -1,6 +1,6 @@
 // Cargar dinámicamente las secciones desde archivos separados
 document.addEventListener("DOMContentLoaded", () => {
-  const secciones = ["home", "tienda", "blog"];
+  const secciones = ["home", "tiendas", "blog"];
 
   secciones.forEach(nombre => {
     fetch(`secciones/${nombre}.html`)

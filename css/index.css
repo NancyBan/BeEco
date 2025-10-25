@@ -23,7 +23,13 @@ section{
     background-color: #e6f4d4;
 }
 
-arearticle section{
+main article hr{
+    width: 90%;
+    margin: 0 auto;
+    border: 0.1em solid #558e62;
+}
+
+article section{
     width: 99%;
     display: flex;
     flex-direction: column;
@@ -31,42 +37,42 @@ arearticle section{
     justify-content: center;
 }
 
-arearticle section:first-child{
+article#home section:first-child{
     width: 100%;
 }
 
-arearticle section:first-child div .icon{
+article#home section:first-child div .icon{
     position: absolute;
     z-index: 2;
 }
 
-arearticle section:first-child div .icon span{
+article#home section:first-child div .icon span{
     font-size: 6vh;
     color: #558e62;
     cursor: pointer;
 }
 
-arearticle section:first-child .icon:nth-child(2){
+article#home section:first-child .icon:nth-child(2){
     right: 0px;
 }
 
-arearticle section div #banenr{
+article#home section div #banenr{
     width: 100vw;
     height: 36vh;
     overflow: hidden;
 }
 
-arearticle section div #banenr div{
+article#home section div #banenr div{
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-arearticle section div #banenr img{
+article#home section div #banenr img{
     width: 100%;
 }
 
-arearticle section div #banenr h1{
+article#home section div #banenr h1{
     position: absolute;
     top: 26vh;
     left: 50%;
@@ -79,13 +85,13 @@ arearticle section div #banenr h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-section.content .lista{
+article section.content .lista{
     display: grid;
 	-webkit-display: grid;
 	grid-template-columns: repeat(5, 1fr);
 }
 
-section.content .lista .item{
+article section.content .lista .item{
 	height: 210px;
 	width: 250px;
 	grid-template-rows: 80% 20%;
@@ -98,6 +104,7 @@ section.content .lista .item{
 	-webkit-box-shadow: 4px 5px 10px 2px #c7d0bb;
 	margin: 28px;
 }
+
 
 /* Footer */
 
