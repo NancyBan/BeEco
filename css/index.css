@@ -18,15 +18,18 @@ body{
 }
 
 /* Main Content */
-section{
+section, main{
     width: 100%;
     background-color: #e6f4d4;
 }
 
 main article hr{
     width: 90%;
+    height: 1px;
     margin: 0 auto;
-    border: 0.1em solid #558e62;
+    border: none;
+    /*border-bottom: 1px solid #558e62;*/
+    background: linear-gradient(to right, #e6f4d4, #558e62, #e6f4d4);
 }
 
 article section{
