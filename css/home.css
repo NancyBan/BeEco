@@ -1,0 +1,55 @@
+article#home section:first-child{
+    width: 101%;
+}
+
+article#home section:first-child div .icon{
+    position: absolute;
+    z-index: 2;
+}
+
+article#home section:first-child div .icon span{
+    font-size: 6vh;
+    color: #558e62;
+    cursor: pointer;
+}
+
+article#home section:first-child .icon:nth-child(2){
+    right: 0px;
+}
+
+article#home section div #banenr{
+    width: 100vw;
+    height: 36vh;
+    overflow: hidden;
+}
+
+article#home section div #banenr div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+article#home section div #banenr img{
+    width: 100%;
+}
+
+article#home section div #banenr h1{
+    position: absolute;
+    top: 26vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #558e62;
+    font-size: 7rem;
+    font-family: "ADLaM Display", system-ui;
+    letter-spacing: 2px;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+article#home .content .lista .item .nombre{
+	font-size: 1.2rem;
+	display: block;
+	margin: 0 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

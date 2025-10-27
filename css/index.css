@@ -7,6 +7,7 @@
 
 htlm{
     scrollbar-gutter: stable;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -26,9 +27,8 @@ section, main{
 main article hr{
     width: 90%;
     height: 1px;
-    margin: 0 auto;
+    margin: 6vh auto;
     border: none;
-    /*border-bottom: 1px solid #558e62;*/
     background: linear-gradient(to right, #e6f4d4, #558e62, #e6f4d4);
 }
 
@@ -40,54 +40,6 @@ article section{
     justify-content: center;
 }
 
-article#home section:first-child{
-    width: 100%;
-}
-
-article#home section:first-child div .icon{
-    position: absolute;
-    z-index: 2;
-}
-
-article#home section:first-child div .icon span{
-    font-size: 6vh;
-    color: #558e62;
-    cursor: pointer;
-}
-
-article#home section:first-child .icon:nth-child(2){
-    right: 0px;
-}
-
-article#home section div #banenr{
-    width: 100vw;
-    height: 36vh;
-    overflow: hidden;
-}
-
-article#home section div #banenr div{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-article#home section div #banenr img{
-    width: 100%;
-}
-
-article#home section div #banenr h1{
-    position: absolute;
-    top: 26vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #558e62;
-    font-size: 7rem;
-    font-family: "ADLaM Display", system-ui;
-    letter-spacing: 2px;
-    z-index: 1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
 article section.content .lista{
     display: grid;
 	-webkit-display: grid;
@@ -97,7 +49,7 @@ article section.content .lista{
 article section.content .lista .item{
 	height: 210px;
 	width: 250px;
-	grid-template-rows: 80% 20%;
+	grid-template-rows: 75% 25%;
 	align-items: center;
     display: grid;
 	background-color: white;
@@ -108,14 +60,26 @@ article section.content .lista .item{
 	margin: 28px;
 }
 
-
-/* Footer */
-
-footer{
-    width: 100%;
-    height: 8vh;
-    background-color: #bef0aa;
+article section.content .lista .item a{
+    height: 82%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+article section.content .lista .item .logo{
+    max-height: 150px;
+    object-fit: cover;
+	display: block;
+	border-radius: 20px;
+	margin: 10px auto 0;
+	transition: transform 0.5s ease-in-out;
+	-webkit-transition: transform 0.5s ease-in-out;
+}
+
+.logo:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+article section.content .lista .item .nombre{
+    height: 100%;
 }

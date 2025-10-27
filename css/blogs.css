@@ -1,0 +1,8 @@
+#blog .lista {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#blog .lista .item {
+    height: 262px;
+    width: 235px;
+}
